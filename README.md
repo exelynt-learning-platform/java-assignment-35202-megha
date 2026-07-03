@@ -2,10 +2,10 @@
 Module &amp; Week Assignments - This repository contains module-wise and week-wise assignment submissions.
 
 1.Explain What version control is and why it is important?
-Ans : The one of the most common version control system used in indusry is Git.
-And we need the version control system to track the changes made in the version,
+Ans : The one of the most common version control system used in industry is Git.
+And we need  version control system to track the changes made in the version,
  revert back to any versions when needed,
-we need the version control systen to compare the changes in the current version and before version.
+we need the version control systen to compare the changes in  current version and before version.
 and also needeed for to know the who,when and why the changes made.
 
 2.Why developers use git?
@@ -14,8 +14,8 @@ also used to revert the versions when needed.
 Git helps developers to track changes,collaborate with team and create branches.
 
 3.Common problems git solve.
- It solves the common problems like , trach the code changes.
- prevent code from being  overwitten.
+ It solves the common problems like , track the code changes.
+ prevent code from being  overwritten.
  Allows restoring previous versions.
  Supports merging and branching.
 
@@ -26,7 +26,7 @@ Git helps developers to track changes,collaborate with team and create branches.
 
  5. centralized vs distributed version control system.
      In centralized VCS there is only one central repository(server).
-    ad developers need to connect with the server to acces the latest code.
+    and developers need to connect with the server to acces the latest code.
     If repository fails, work may stop.
 
     In distributed VCS every developer has a copy of the repository.

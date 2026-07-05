@@ -9,4 +9,7 @@ Three git states
 1. Untracked : File is new
 2. staged : After adding the file
 3. commited : save the staged changes premanently.
-   
+
+   The .git folder it is the heart of the git repository.
+   It can stores the metadata of the repository.
+   it can stores the branch information,tracked file  information and the commit history.

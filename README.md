@@ -18,8 +18,8 @@ Supports collaboration
 Allows branching and merging
 Helps recover previous versions
 Makes code management easier
-What is GitHub?
 
+What is GitHub?
 GitHub is a cloud platform that hosts Git repositories. It enables developers to store code online, collaborate with others, review code, and manage software projects.  
 
 

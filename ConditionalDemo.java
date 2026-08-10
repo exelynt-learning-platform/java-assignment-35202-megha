@@ -1,27 +1,29 @@
 import java.util.Scanner;
-public class ConditionalDemo
-{
-    public static void main(String args[])
-    {
+
+public class ConditionalDemo {
+    public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number:");
-        int number= scanner.nextInt();
-        if(number>0)
-        {
-            System.out.println("Number is positive");
+
+        // Take a number from the user
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+
+        // Check if the number is positive, negative, or zero
+        if (number > 0) {
+            System.out.println("Positive");
+        } else if (number < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
         }
-        else if(number<0)
-        {
-            System.out.println("Number is negative");
-        }
-        else
-        {
-            System.out.println("Number is zero");
-        }
-        System.out.println("Enter the number between the 1 to 7:");
-        int day=scanner.nextInt();
-        switch (day)
-        {
+
+        // Take a number from 1 to 7 for the day
+        System.out.print("Enter day number (1-7): ");
+        int day = scanner.nextInt();
+
+        // Print the day using switch statement
+        switch (day) {
             case 1:
                 System.out.println("Monday");
                 break;
@@ -44,9 +46,7 @@ public class ConditionalDemo
                 System.out.println("Sunday");
                 break;
             default:
-                System.out.println("Invalid");
+                System.out.println("Invalid day number");
         }
-        scanner.close();
-
     }
 }

@@ -3,9 +3,9 @@ import java.util.Scanner;
 class Student
 {
     // Fields of the student class
-    String name;
-    int age;
-    String grade;
+    private String name;
+    private int age;
+    private String grade;
 // Default constructor initializes the default values
     Student()
 {

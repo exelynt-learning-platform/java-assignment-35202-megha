@@ -1,4 +1,4 @@
-class Student
+class StudentAccess
 {
     //private  fields : can be accesed only inside the student class
     private String name;
@@ -31,7 +31,7 @@ public class AccessModifiersDemo {
     {
 
         // Creating a Student object
-        Student student = new Student();
+        StudentAccess student = new StudentAccess();
 
         // Updating private fields using public setter methods
         student.setName("Megha");

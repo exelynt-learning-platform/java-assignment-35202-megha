@@ -3,8 +3,8 @@ package libraryutils;
 // Book class demonstrates the use of packages.
 public class Book {
 
-    String title;
-    String author;
+    public String title;
+    public String author;
 
     // Constructor to initialize book details
     public Book(String title, String author) {
